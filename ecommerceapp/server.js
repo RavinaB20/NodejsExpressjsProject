@@ -9,6 +9,9 @@ const port = 8000;
 app.use(bodyparser.urlencoded({extended:false}));
 app.use(express.static(path.join(__dirname,'public')))
 
+var routes = require('./route')
+routes(app)
+
 app.listen(port,()=>{
     console.log(`Server listening on port ${port}`)
 })

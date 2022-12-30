@@ -5,5 +5,5 @@ exports.getAll = (req, res) => {
 }
 
 exports.getHomePage = (req,res) => {
-    res.send('<h1>In home page</h1>')
+    res.send('<h1>In home page using gethome page</h1>')
 }
