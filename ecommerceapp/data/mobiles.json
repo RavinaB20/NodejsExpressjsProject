@@ -1,0 +1,26 @@
+[
+    {
+        "mobileid":123,
+        "mobilebrand":"samsung", 
+        "price":25000,
+        "color":"black"
+    },
+    {
+        "mobileid":124,
+        "mobilebrand":"iphone", 
+        "price":82000,
+        "color":"red"
+    },
+    {
+        "mobileid":125,
+        "mobilebrand":"moto", 
+        "price":37000,
+        "color":"matte black"
+    },
+    {
+        "mobileid":126,
+        "mobilebrand":"oneplus", 
+        "price":65000,
+        "color":"blue"
+    }
+]
